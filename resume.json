@@ -1,0 +1,126 @@
+{
+    "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+    "basics": {
+      "name": "Subhas Sing",
+      "label": "Fullstack Sr. Software Engineer",
+      "image": "",
+      "email": "subhas.sing@gmail.com",
+      "phone": "+1-480-319-5677",
+      "url": "https://subhas.dev",
+      "summary": "I'm a full stack web developer who have built many apps from the ground up. I've worked mostly at startups so I am used to wearing many hats. I am a very product focused developer who prioritizes user feedback first and foremost.",
+      "location": {
+        "address": "Riggs Rd x Arizona Ave",
+        "postalCode": "85249",
+        "city": "Chandler",
+        "countryCode": "US",
+        "region": "Arizona"
+      },
+      "profiles": [
+        {
+          "network": "LinkedIn",
+          "username": "subhas-sing-b336437",
+          "url": "https://www.linkedin.com/in/"
+        },
+        {
+            "network": "github",
+            "username": "nemo97",
+            "url": "https://github.com/nemo97"
+          }
+      ]
+    },
+    "work": [
+
+    ],
+    "volunteer": [],
+    "education": [
+        {
+            "endDate": "2003-12-12",
+            "startDate": "1999-01-01",
+            "area": "Computer Science and Engineering",
+            "studyType": "Bachelors",
+            "institution": "Jadavpur University,Kolkata,West Bengal,India"
+        }
+    ],
+    "awards": [],
+    "certificates": [],
+    "publications": [],
+    "skills": [
+        {
+            "keywords": [
+                "HTML / JSX",
+                "SCSS / CSS / Styled Components",
+                "Javascript / Typescript",
+                "React / Next",
+                "Redux"
+            ],
+            "level": "Senior",
+            "name": "Frontend"
+        },
+        {
+            "keywords": [
+                "Node / Express",
+                "Java",                
+                "SpringBoot",                
+                "SpringFramework",                
+                "JMS / Kafka",
+                "Postgres",
+                "MySQL",
+                "Redis",
+                "Serverless"
+            ],
+            "level": "Senior",
+            "name": "Backend"
+        },
+        {
+            "keywords": [
+                "AWS",                
+                "Caching",
+                "CDK",
+                "AWS Pipeline",
+                "Jenkin CI/CD",
+                "GitHub / GutHub Action",
+                "Docker"
+            ],
+            "level": "Senior",
+            "name": "Devops"
+        },
+        {
+            "keywords": [
+                "Linux / Ubuntu / RedHat",                
+                "Tomcat / JBOSS / WebSphere",
+                "Python",
+                "Kubernaties"                
+            ],
+            "level": "Mid",
+            "name": "Infra"
+        }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "fluency": "fluent"
+        },
+        {
+            "language": "Bengali",
+            "fluency": "fluent"
+        },
+        {
+            "language": "Hindi",
+            "fluency": "fluent"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Hiking / Running"
+        },
+        {
+            "name": "Open Source"
+        }
+    ],
+    "references": [],
+    "projects": [],
+    "meta": {
+      "version": "v1.0.0",
+      "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+    }
+  }
