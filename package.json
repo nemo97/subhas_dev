@@ -17,6 +17,7 @@
     "eleventy-sass": "^2.2.4"
   },
   "dependencies": {
-    "jsonresume-theme-elegant": "^1.16.1"
+    "jsonresume-theme-elegant": "^1.16.1",
+    "luxon": "^3.4.4"
   }
 }

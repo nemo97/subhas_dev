@@ -1,13 +1,22 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
     {% include '_meta.html' %}
 </head>
 <body>
-    {% include '_nav.html' %}
-    <div></div>
-	{{ content | safe }}
-	<site-footer></site-footer>
+
+    {% include '_nav.html' %}    
+    <div class="container">
+      <h4>Subhas Sing</h4>
+      <h6>Freelancer, Consaltant</h6>
+       <div style={height: '10px'}></div> 
+      <div class="col-lg-8 px-0">
+            {{ content | safe }}    
+      </div>
+      <site-footer></site-footer>
+      
+    </div>	
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 
 </html>
