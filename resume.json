@@ -8,8 +8,7 @@
       "phone": "+1-480-319-5677",
       "url": "https://subhas.dev",
       "summary": "I'm a full stack web developer who have built many apps from the ground up. I've worked mostly at startups so I am used to wearing many hats. I am a very product focused developer who prioritizes user feedback first and foremost.",
-      "location": {
-        "address": "Riggs Rd x Arizona Ave",
+      "location": {        
         "postalCode": "85249",
         "city": "Chandler",
         "countryCode": "US",
@@ -29,6 +28,72 @@
       ]
     },
     "work": [
+        {
+            "summary": "Started very early stage of this project migrating mainframe to Java/J2EE base application. Worked with functional team to understand requiremnt, develop & test functionality and release.",
+            "website": "https://matson.com/",
+            "name": "Matson Navigation",
+            "location": "Phoenix",
+            "position": "Senior Software Engineer",
+            "startDate": "2011-02-11",
+            "highlights": [
+                "Worked a lot to debug and optimize multithreaded application for performance",
+                "SpringFramework",
+                "MySQL",
+                "JBOSS",
+                "JSP",
+                "Struts",
+                "JMS / ActiveMQ / IBM MQ",
+                "Fixed in Hibernate code to solve multithreaded issue we were having",
+                "Lead the effort to make application stateless using Redis",
+                "Migrated lot of nightly batch jobs using SpringBatch and Quartz"
+            ]
+        },
+        {
+            "summary": "Lead the effort migrating legacy Documentum and Alfresco DMS to Onbase.",
+            "website": "https://matson.com/",
+            "name": "Matson Navigation",
+            "location": "Phoenix",
+            "position": "Senior Software Engineer(Consultant)",
+            "startDate": "2015-02-11",
+            "highlights": [                
+                "SpringBoot",
+                "MySQL",                
+                "Gradle",
+                "SOAP service"
+            ]
+        },
+        {
+            "summary": "BPM project was developed to provide a new custom platform built within the Adeptia / JAVA framework to allow CareFusion Business Unit Analysts to perform all (or nearly all) of the business transactions to analyze data issues and correct data associated with all aspects of sales tracing.",            
+            "name": "CareFusion Inc",
+            "location": "San Diego",
+            "position": "Software Engineer",
+            "startDate": "2015-02-11",
+            "highlights": [                
+                "SpringFramework",
+                "SQLServer",                
+                "JSP",
+                "jQuery",
+                "DHTMLX"
+            ]
+        },
+        {
+            "summary": "ResMed Online Store(ROS) – Using this application ResMed account holders can Order products and accessories, see order history, Track Orders, can apply promotion when available.",            
+            "name": "ResMed",
+            "website" : "https://onlinestore.resmed.com/help/index.html?account_request.html",
+            "location": "San Diego",
+            "position": "Software Engineer",
+            "startDate": "2015-02-11",
+            "highlights": [               
+                "Developed major application screens using Spring MVC,DHTMLX,JQuery", 
+                "Developed Store Procedure to interface Oracle Apps module",
+                "SpringFramework",
+                "SQLServer",                
+                "JSP",
+                "jQuery",
+                "DHTMLX",
+                "OracleApps"
+            ]
+        }
 
     ],
     "volunteer": [],
@@ -111,7 +176,16 @@
     ],
     "interests": [
         {
-            "name": "Hiking / Running"
+            "name": "Hiking / Running "            
+        },
+        {
+            "name": "Participated and successfully completed the Basic Mountaineering Course organized by Indian Mountaineering Institute, Darjeeling."            
+        },
+        {
+            "name": "Ex-Secretary, Jadavpur University Mountaineering Hiking Club (JUMHC)."            
+        },
+        {
+            "name": "Participated in various mountaineering Expedition, Trekking & Rock-climbing team ventures.."            
         },
         {
             "name": "Open Source"
