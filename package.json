@@ -6,7 +6,8 @@
   "scripts": {
     "build": "npx @11ty/eleventy",
     "start": "npx @11ty/eleventy --serve",
-    "debug": "DEBUG=* npx @11ty/eleventy"
+    "debug": "DEBUG=* npx @11ty/eleventy",
+    "resume":"cd resume && resume export ./index.html"
   },
   "keywords": [],
   "author": "",
@@ -18,6 +19,8 @@
   },
   "dependencies": {
     "jsonresume-theme-elegant": "^1.16.1",
-    "luxon": "^3.4.4"
+    "jsonresume-theme-even": "^0.22.0",
+    "luxon": "^3.4.4",
+    "resumed": "^3.0.1"
   }
 }
