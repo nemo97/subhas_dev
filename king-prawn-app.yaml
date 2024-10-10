@@ -1,0 +1,27 @@
+alerts:
+- rule: DEPLOYMENT_FAILED
+- rule: DOMAIN_FAILED
+domains:
+- domain: subhas.dev
+  type: PRIMARY
+  zone: subhas.dev
+features:
+- buildpack-stack=ubuntu-22
+ingress:
+  rules:
+  - component:
+      name: subhas-dev
+    match:
+      path:
+        prefix: /
+name: king-prawn-app
+region: nyc
+static_sites:
+- build_command: npm install && npm run resume && npm run build
+  environment_slug: node-js
+  output_dir: _site
+  git:
+    branch: main
+    repo_clone_url: https://github.com/nemo97/subhas_dev.git
+  name: subhas-dev
+  source_dir: /

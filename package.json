@@ -7,7 +7,8 @@
     "build": "npx @11ty/eleventy",
     "start": "npx @11ty/eleventy --serve",
     "debug": "DEBUG=* npx @11ty/eleventy",
-    "resume":"cd resume && resume export ./index.html"
+    "resume": "cd resume && resume export ./index.html"
+
   },
   "keywords": [],
   "author": "",
@@ -21,6 +22,7 @@
     "jsonresume-theme-elegant": "^1.16.1",
     "jsonresume-theme-even": "^0.22.0",
     "luxon": "^3.4.4",
-    "resumed": "^3.0.1"
+    "resume-cli": "^3.0.8",
+    "resumed": "^4.0.0"
   }
 }
