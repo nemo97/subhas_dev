@@ -31,10 +31,10 @@
         {
             "summary": "Started very early stage of this project migrating mainframe to Java/J2EE base application. Worked with functional team to understand requiremnt, develop & test functionality and release.",
             "website": "https://matson.com/",
-            "name": "Matson Navigation",
+            "name": "NetAndroid Corp",
             "location": "Phoenix",
-            "position": "Senior Software Engineer",
-            "startDate": "2011-02-11",
+            "position": "Senior Software Engineer(Consultant) for Matson Navigation",
+            "startDate": "2022-02-01",
             "highlights": [
                 "Worked a lot to debug and optimize multithreaded application for performance",
                 "SpringFramework",
@@ -50,16 +50,46 @@
         },
         {
             "summary": "Lead the effort migrating legacy Documentum and Alfresco DMS to Onbase.",
-            "website": "https://matson.com/",
-            "name": "Matson Navigation",
+            "website": "https://celtic.bz/",
+            "name": "Celtic Systems",
             "location": "Phoenix",
-            "position": "Senior Software Engineer(Consultant)",
-            "startDate": "2015-02-11",
+            "position": "Enterprise Architect/Team Lead",
+            "startDate": "2019-07-01",
+            "endDate": "2022-01-31",
             "highlights": [                
                 "SpringBoot",
-                "MySQL",                
-                "Gradle",
-                "SOAP service"
+                "MySQL",
+                "MsSQL",                
+                "Azure",
+                "Helm",
+                "Kubernaties",
+                "Docker",
+                "Jenkins",
+                "Graphana",
+                "Prometheus",
+                "Elastic Search",
+                "Kibana"
+            ]
+        },
+        {
+            "summary": "Started very early stage of this project migrating mainframe to Java/J2EE base application. Worked with functional team to understand requiremnt, develop & test functionality and release.",
+            "website": "https://matson.com/",
+            "name": "NetAndroid Corp",
+            "location": "Phoenix",
+            "position": "Senior Software Engineer(Consultant) for Matson Navigation",
+            "startDate": "2011-02-01",
+            "endDate": "2019-06-30",
+            "highlights": [
+                "Worked a lot to debug and optimize multithreaded application for performance",
+                "SpringFramework",
+                "MySQL",
+                "JBOSS",
+                "JSP",
+                "Struts",
+                "JMS / ActiveMQ / IBM MQ",
+                "Fixed in Hibernate code to solve multithreaded issue we were having",
+                "Lead the effort to make application stateless using Redis",
+                "Migrated lot of nightly batch jobs using SpringBatch and Quartz"
             ]
         },
         {
@@ -192,7 +222,18 @@
         }
     ],
     "references": [],
-    "projects": [],
+    "projects": [
+        {
+            "name": "Project",
+            "startDate": "2019-01-01",
+            "endDate": "2021-01-01",
+            "description": "Description...",
+            "highlights": [
+              "Won award at AIHacks 2016"
+            ],
+            "url": "https://project.com/"
+          }
+    ],
     "meta": {
       "version": "v1.0.0",
       "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
