@@ -7,7 +7,7 @@
     "build": "npx @11ty/eleventy",
     "start": "npx @11ty/eleventy --serve",
     "debug": "DEBUG=* npx @11ty/eleventy",
-    "resume": "cd resume && resume export --theme elegant ./index.html"
+    "resume": "cd resume && resumed export resume.json --theme jsonresume-theme-elegant  -o ./index.html"
 
   },
   "keywords": [],
@@ -21,8 +21,7 @@
   "dependencies": {
     "jsonresume-theme-elegant": "^1.16.1",
     "jsonresume-theme-even": "^0.22.0",
-    "luxon": "^3.4.4",
-    "resume-cli": "^3.0.8",
+    "luxon": "^3.4.4",    
     "resumed": "^4.0.0"
   }
 }
