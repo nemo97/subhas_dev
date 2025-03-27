@@ -2,5 +2,5 @@
 layout: layout/myLayout.njk
 ---
 <h1>{{ title }}</h1>
-<p>{{ date | date: "%Y-%m-%d" }}</p>
+<p>{{ date | readableDate }}</p>
 {{ content }}

@@ -3,20 +3,17 @@ title: Home
 layout: layout/myLayout.njk
 ---
   <header class="mt-3">    
-    <p>Hello and welcome to my corner of the internet! I'm Subhas Sing, a passionate Java developer with a love for crafting efficient, scalable, and innovative solutions.</p>
+    <p>Welcome to my personal website! My name is Subhas Sing, and I am a passionate Fullstack Developer with a strong focus on crafting efficient, distributed, scalable, and innovative solutions. I specialize in technologies such as Golang, Java, Spring Boot, TypeScript, and React. Having worked on a variety of projects, I have developed a solid foundation in backend development and am always eager to explore new technologies and expand my skill set.</p>
   </header>
-
+  
   <section>
-    <h4>About Me</h4>
-    <p>I've been immersed in the world of Java development for 15+ years, and my journey has been nothing short of exhilarating. From building robust backend systems to creating dynamic web applications, I thrive on turning ideas into reality through code.</p>
-  </section>
-
-  <section>
-    <h4>What I Offer</h4>
+    <h4>Recent Posts</h4>
     <ul>
-      <li><strong>Java Development Services:</strong> Whether you need a custom application built from scratch or require enhancements to your existing Java project, I'm here to help. My expertise spans Java SE, Java EE, Spring Framework, and more.</li>
-      <li><strong>Consultation and Training:</strong> Looking to level up your Java skills? I offer personalized consultation and training sessions tailored to your needs, whether you're a beginner or an experienced developer.</li>
-      <li><strong>Code Reviews and Optimization:</strong> Need a fresh pair of eyes on your codebase? I provide thorough code reviews and optimization services to ensure your Java applications are running at peak performance.</li>
+      {% for post in collections.posts | reverse %}
+       <li>
+         <a href="{{ post.url }}">{{ post.data.title }}</a> - {{ post.date | readableDate }}
+       </li>
+      {% endfor %}
     </ul>
   </section>
 

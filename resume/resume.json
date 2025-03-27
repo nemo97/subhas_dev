@@ -7,7 +7,7 @@
       "email": "subhas.sing@gmail.com",
       "phone": "+1-480-319-5677",
       "url": "https://subhas.dev",
-      "summary": "I'm a full stack web developer who have built many apps from the ground up. I've worked mostly at startups so I am used to wearing many hats. I am a very product focused developer who prioritizes user feedback first and foremost.",
+      "summary": "Over 15 years of IT experience in Analysis, Design, Development, and Testing with various technologies in web-based applications.\n Expertise in migrating large monolithic applications to event-driven microservice-based architecture using React, Spring Boot, Kafka, JMS, Avro Schema, and OAuth.\n Proficient in front-end UI technologies such as React, NodeJS, jQuery, and Webpack.\n Skilled in designing and developing multi-tier web applications using ReactJS, Spring Boot, Spring MVC, Spring JDBC, MongoDB, Hibernate, Java, JSP, Java Servlet, jQuery, REST Services, CSS, and SQL.\n Experienced in optimizing J2EE application servers and applications for memory and performance.\n Familiar with scripting languages for automation such as PowerShell, Python, and Bash.\n Knowledgeable in unit testing frameworks like JUnit, Selenium, and Playwright for automated functional testing.\n Extensive experience with build tools such as Maven, Gradle, Ant, Jenkins, GitHub, SVN, IntelliJ, and Eclipse.\n Experienced in building applications with Kubernetes and Docker, and deploying them in Kubernetes clusters.\n Configured and maintained Jenkins and AWS CI/CD pipelines for application deployment.\n",
       "location": {        
         "postalCode": "85249",
         "city": "Chandler",
@@ -29,23 +29,21 @@
     },
     "work": [
         {
-            "summary": "Started very early stage of this project migrating mainframe to Java/J2EE base application. Worked with functional team to understand requiremnt, develop & test functionality and release.",
+            "summary": "Matson Ohana Platform - Ohana platform is a web-based platform where users request quote, booking, shipping and track their containers for Maston Navigation. I, with a very small team, worked on every aspect of application development and delivered way early!",
             "website": "https://matson.com/",
             "name": "NetAndroid Corp",
             "location": "Phoenix",
             "position": "Senior Software Engineer(Consultant) for Matson Navigation",
             "startDate": "2022-02-01",
-            "highlights": [
-                "Worked a lot to debug and optimize multithreaded application for performance",
-                "SpringFramework",
-                "MySQL",
-                "JBOSS",
-                "JSP",
-                "Struts",
-                "JMS / ActiveMQ / IBM MQ",
-                "Fixed in Hibernate code to solve multithreaded issue we were having",
-                "Lead the effort to make application stateless using Redis",
-                "Migrated lot of nightly batch jobs using SpringBatch and Quartz"
+            "highlights": [  
+                "Worked as Senior Fullstack developer in a team of 5, directly with the client.",
+                "Use Serverless Framework for AWS Lambda functions written in NodeJS and Java" ,
+                "Developer backend microservice APIs using Lambda on TypeScript, SpringBoot, MongoDB, Kafka, Redis, MySQL, etc.", 
+                "Use Kafka to integrate with our internal systems and ship application logs",
+                "Use MongoDB to store our auditing details, security incidents, message archiving, etc.",
+                "Developed major reusable React 14 components used throughout the application.",
+                "Designed and standardized React 19 development standard for page development using React, Redux, etc.",
+                "Tested and fixed defects under stringent timelines"
             ]
         },
         {
@@ -222,18 +220,6 @@
         }
     ],
     "references": [],
-    "projects": [
-        {
-            "name": "Project",
-            "startDate": "2019-01-01",
-            "endDate": "2021-01-01",
-            "description": "Description...",
-            "highlights": [
-              "Won award at AIHacks 2016"
-            ],
-            "url": "https://project.com/"
-          }
-    ],
     "meta": {
       "version": "v1.0.0",
       "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
