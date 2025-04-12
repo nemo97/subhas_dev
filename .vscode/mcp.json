@@ -1,0 +1,14 @@
+{
+    "servers": {
+        "my-mcp-server-fd88b319": {
+            "type": "stdio",
+            "command": "uv",
+            "args": [
+                "--directory",
+                "/home/subhas/workspace/sql-mcp",
+                "run",
+                "server.py"
+            ]
+        }
+    }
+}
