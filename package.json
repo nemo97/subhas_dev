@@ -7,7 +7,7 @@
     "build": "npx @11ty/eleventy",
     "start": "npx @11ty/eleventy --serve",
     "debug": "DEBUG=* npx @11ty/eleventy",
-    "resume": "cd resume && resumed export resume.json --theme jsonresume-theme-elegant  -o ./index.html"
+    "resume": "npx resumed export ./resume/resume.json --theme jsonresume-theme-elegant  -o ./resume/index.html"
 
   },
   "keywords": [],

@@ -1,3 +1,44 @@
 :root {
     --bs-body-bg: var(--bs-gray-100);
 }
+
+/* Post Card */
+   .post-cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    .post-card {
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      overflow: hidden;
+      width: 360px;
+      transition: box-shadow 0.2s;
+      text-decoration: none;
+      border: 1.5px solid #e0e0e0;
+    }
+    .post-card:hover {
+      box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+    }
+    .post-card-img {
+      width: 100%;
+      height: 140px;
+      display: block;
+    }
+    .post-card-content {
+      padding: 1rem;
+    }
+    .post-card-content h5 {
+      margin: 0 0 0.5rem 0;
+      font-size: 1.1rem;
+      color: #222;
+    }
+    .post-card-date {
+      color: #888;
+      font-size: 0.95rem;
+      margin: 0;
+    }
+
+    

@@ -6,32 +6,26 @@ layout: layout/myLayout.njk
     <p>Welcome to my personal website! My name is Subhas Sing, and I am a passionate Fullstack Developer with a strong focus on crafting efficient, distributed, scalable, and innovative solutions. I specialize in technologies such as Golang, Java, Spring Boot, TypeScript, and React. Having worked on a variety of projects, I have developed a solid foundation in backend development and am always eager to explore new technologies and expand my skill set.</p>
   </header>
   
+  {% assign top_four = collections.posts | reverse  %}
+
   <section>
     <h4>Recent Posts</h4>
-    <ul>
-      {% for post in collections.posts | reverse %}
-       <li>
-         <a href="{{ post.url }}">{{ post.data.title }}</a> - {{ post.date | readableDate }}
-       </li>
+    <div class="post-cards">
+      {% for post in top_four limit:6 %}
+        <div class="post-card">
+          <a href="{{ post.url }}">
+            <div class="post-card-img">
+            <img class="post-card-img" src="{{post.page.url}}{{post.data.image}}" alt="{{ post.data.title }}" />
+            </div>
+            <div class="post-card-content">
+              <h5>{{ post.data.title }}</h5>
+              <p class="post-card-date">{{ post.date | readableDate }}</p>
+            </div>
+          </a>
+        </div>
       {% endfor %}
-    </ul>
+    </div>
   </section>
-
-  <!-- <section>
-    <h2>Featured Projects</h2>
-    <div class="project">
-      <h3>Project Name</h3>
-      <p>Description of the project and the problem it solves.</p>
-    </div>
-    <div class="project">
-      <h3>Project Name</h3>
-      <p>Description of the project and the problem it solves.</p>
-    </div>
-    <div class="project">
-      <h3>Project Name</h3>
-      <p>Description of the project and the problem it solves.</p>
-    </div>
-  </section> -->
 
   <section>
     <h2>Let's Connect</h2>

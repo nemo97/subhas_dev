@@ -1,5 +1,6 @@
 ---
 title: Hands-On Introduction to the Model Context Protocol (MCP)
+image: ../images/mcp.png
 date: 2025-04-09
 layout: layout/post.html
 tags:

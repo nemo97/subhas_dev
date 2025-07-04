@@ -1,6 +1,7 @@
 ---
 title: Evolution of Java/J2EE Architecture
 date: 2025-03-31
+image: ../images/j2ee.png
 layout: layout/post.html
 tags:
   - posts
@@ -9,6 +10,7 @@ tags:
 ---
 
 Java has been a cornerstone of enterprise application development for decades. Over the years, its architecture has evolved significantly to meet the changing demands of the software industry. This post explores the key milestones in the evolution of Java/J2EE architecture. For those starting as Java/J2EE developers, this might be helpful in understanding legacy application code, as many applications are still in production.
+
 
 ---
 

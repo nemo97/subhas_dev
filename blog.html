@@ -2,11 +2,24 @@
 title: Blog
 layout: layout/myLayout.njk
 ---
-<h1>My posts</h1>
-<ul>
-{% for post in collections.posts | reverse %}
- <li>
-   <a href="{{ post.url }}">{{ post.data.title }}</a> - {{ post.date | readableDate }}
- </li>
-{% endfor %}
-</ul>
+
+ {% assign top_four = collections.posts | reverse  %}
+
+<section>
+    <h4>My Posts</h4>
+    <div class="post-cards">
+      {% for post in top_four limit:6 %}
+        <div class="post-card">
+          <a href="{{ post.url }}">
+            <div class="post-card-img">
+            <img class="post-card-img" src="{{post.page.url}}{{post.data.image}}" alt="{{ post.data.title }}" />
+            </div>
+            <div class="post-card-content">
+              <h5>{{ post.data.title }}</h5>
+              <p class="post-card-date">{{ post.date | readableDate }}</p>
+            </div>
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  </section>

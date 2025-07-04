@@ -1,6 +1,7 @@
 ---
 title: Why I Chose Eleventy Over Next.js
 date: 2025-03-26
+image: ../images/11ty.svg
 layout: layout/post.html
 tags:
   - posts

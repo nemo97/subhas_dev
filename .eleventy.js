@@ -9,6 +9,7 @@ module.exports = function (eleventyConfig) {
         useTransform: true,
     });
     eleventyConfig.addPassthroughCopy("posts/**/*.jpg");
+    eleventyConfig.addPassthroughCopy("posts/**/*.svg");
     eleventyConfig.addPassthroughCopy("posts/**/*.png");
     eleventyConfig.addPassthroughCopy("posts/**/*.gif");
     eleventyConfig.addPassthroughCopy("posts/**/*.webm");
@@ -20,4 +21,9 @@ module.exports = function (eleventyConfig) {
           'dd LLL yyyy'
         );
     })
+
+    eleventyConfig.addFilter('stringify', (data) => {
+        console.log("Stringifying data:", data);
+        return ""; // Using null and "\t" for pretty-printing with tabs
+    });
 };

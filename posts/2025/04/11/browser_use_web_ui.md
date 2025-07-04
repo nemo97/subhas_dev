@@ -1,6 +1,7 @@
 ---
 title: Try Browser Use /web-ui to control your browser automation
 date: 2025-04-08
+image: ../images/web-ui.png
 layout: layout/post.html
 tags:
   - posts
@@ -18,7 +19,7 @@ You can configure various model infact model running in Local with [Ollama](http
 I am surprised how well it works, i will try more in near future.
 
 
-<img src="../images/agent_history.gif" alt="" width="800" height="500">
+<img src="{{page.url}}/../images/agent_history.gif" alt="" width="800" height="500">
 
 
 

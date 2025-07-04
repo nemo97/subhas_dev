@@ -29,25 +29,41 @@
     },
     "work": [
         {
-            "summary": "Matson Ohana Platform - Ohana platform is a web-based platform where users request quote, booking, shipping and track their containers for Maston Navigation. I, with a very small team, worked on every aspect of application development and delivered way early!",
-            "website": "https://matson.com/",
-            "name": "NetAndroid Corp",
+            "summary": "Worked on major backend components for Auto Loan applications for Wells Fargo. This includes building new microservices, enhancing existing ones, and integrating with various internal systems utilizing Kafka, MongoDB, SpringBoot, OAuth, OpenShift, PCF.",
+            "website": "https://www.wellsfargo.com/auto-loans/",
+            "name": "WellsFargo",
             "location": "Phoenix",
-            "position": "Senior Software Engineer(Consultant) for Matson Navigation",
-            "startDate": "2022-02-01",
-            "highlights": [  
-                "Worked as Senior Fullstack developer in a team of 5, directly with the client.",
-                "Use Serverless Framework for AWS Lambda functions written in NodeJS and Java" ,
-                "Developer backend microservice APIs using Lambda on TypeScript, SpringBoot, MongoDB, Kafka, Redis, MySQL, etc.", 
-                "Use Kafka to integrate with our internal systems and ship application logs",
-                "Use MongoDB to store our auditing details, security incidents, message archiving, etc.",
-                "Developed major reusable React 14 components used throughout the application.",
-                "Designed and standardized React 19 development standard for page development using React, Redux, etc.",
-                "Tested and fixed defects under stringent timelines"
+            "position": "Senior Software Engineer(Contract)",
+            "startDate": "2025-06-01",
+            "highlights": [
+              "Designed and developed scalable microservices for auto loan processing using Spring Boot and Kafka.",
+              "Enhanced and optimized existing backend services for improved performance and reliability.",
+              "Integrated with internal systems and third-party APIs to streamline loan application workflows.",
+              "Implemented secure authentication and authorization using OAuth.",
+              "Deployed and managed services on OpenShift and PCF cloud platforms."
             ]
         },
         {
-            "summary": "Lead the effort migrating legacy Documentum and Alfresco DMS to Onbase.",
+            "summary": "Matson Ohana Platform - Ohana platform is a web-based platform where users request quote, booking, shipping and track their containers for Maston Navigation. I, with a very small team, worked on every aspect of application development and delivered way early!",
+            "website": "https://matson.com/",
+            "name": "Matson Navigation",
+            "location": "Phoenix",
+            "position": "Senior Software Engineer(Contract)",
+            "startDate": "2022-02-01",
+            "endDate": "2025-05-30",
+            "highlights": [  
+                "Served as Senior Fullstack Developer in a team of five, working directly with the client.",
+                "Utilized the Serverless Framework for AWS Lambda functions developed in Node.js and Java.",
+                "Developed backend microservice APIs using Lambda with TypeScript, Spring Boot, MongoDB, Kafka, Redis, and MySQL.",
+                "Leveraged Kafka for integration with internal systems and application log shipping.",
+                "Employed MongoDB for storing auditing details, security incidents, and message archiving.",
+                "Developed major reusable React v14 components used throughout the application.",
+                "Designed and standardized React v19 development practices for page development using React and Redux.",
+                "Tested and resolved defects under stringent timelines."
+            ]
+        },
+        {
+            "summary": "Led and architected the migration of enterprise applications to Kubernetes environments, overseeing the design, planning, and execution of cloud-native solutions. Collaborated with cross-functional teams to modernize legacy systems, implement containerization strategies, and optimize deployment pipelines for scalability, reliability, and cost efficiency. Provided technical leadership and mentorship to ensure best practices in DevOps, CI/CD, and cloud infrastructure management.",
             "website": "https://celtic.bz/",
             "name": "Celtic Systems",
             "location": "Phoenix",
@@ -72,56 +88,25 @@
         {
             "summary": "Started very early stage of this project migrating mainframe to Java/J2EE base application. Worked with functional team to understand requiremnt, develop & test functionality and release.",
             "website": "https://matson.com/",
-            "name": "NetAndroid Corp",
+            "name": "Matson Navigation",
             "location": "Phoenix",
-            "position": "Senior Software Engineer(Consultant) for Matson Navigation",
+            "position": "Senior Software Engineer(Contract)",
             "startDate": "2011-02-01",
             "endDate": "2019-06-30",
             "highlights": [
-                "Worked a lot to debug and optimize multithreaded application for performance",
-                "SpringFramework",
+                "Worked extensively on debugging and optimizing multithreaded applications for enhanced performance",
+                "Spring Framework",
                 "MySQL",
-                "JBOSS",
+                "JBOSS/Tomcat",
                 "JSP",
                 "Struts",
                 "JMS / ActiveMQ / IBM MQ",
-                "Fixed in Hibernate code to solve multithreaded issue we were having",
-                "Lead the effort to make application stateless using Redis",
-                "Migrated lot of nightly batch jobs using SpringBatch and Quartz"
-            ]
-        },
-        {
-            "summary": "BPM project was developed to provide a new custom platform built within the Adeptia / JAVA framework to allow CareFusion Business Unit Analysts to perform all (or nearly all) of the business transactions to analyze data issues and correct data associated with all aspects of sales tracing.",            
-            "name": "CareFusion Inc",
-            "location": "San Diego",
-            "position": "Software Engineer",
-            "startDate": "2015-02-11",
-            "highlights": [                
-                "SpringFramework",
-                "SQLServer",                
-                "JSP",
-                "jQuery",
-                "DHTMLX"
-            ]
-        },
-        {
-            "summary": "ResMed Online Store(ROS) – Using this application ResMed account holders can Order products and accessories, see order history, Track Orders, can apply promotion when available.",            
-            "name": "ResMed",
-            "website" : "https://onlinestore.resmed.com/help/index.html?account_request.html",
-            "location": "San Diego",
-            "position": "Software Engineer",
-            "startDate": "2015-02-11",
-            "highlights": [               
-                "Developed major application screens using Spring MVC,DHTMLX,JQuery", 
-                "Developed Store Procedure to interface Oracle Apps module",
-                "SpringFramework",
-                "SQLServer",                
-                "JSP",
-                "jQuery",
-                "DHTMLX",
-                "OracleApps"
+                "Implemented fixes in Hibernate code to resolve multithreading issues",
+                "Led the initiative to make the application stateless using Redis",
+                "Migrated numerous nightly batch jobs utilizing Spring Batch and Quartz"
             ]
         }
+        
 
     ],
     "volunteer": [],
@@ -143,7 +128,8 @@
                 "HTML / JSX",
                 "SCSS / CSS / Styled Components",
                 "Javascript / Typescript",
-                "React / Next",
+                "React",
+                "i18n",
                 "Redux"
             ],
             "level": "Senior",
@@ -157,18 +143,25 @@
                 "SpringFramework",                
                 "JMS / Kafka",
                 "Postgres",
+                "MongoDB",
                 "MySQL",
                 "Redis",
-                "Serverless"
+                "AWS Lambda",
+                "AWS DynamoDB",
+                "AWS S3",
+                "AWS API Gateway",
+                "AWS SNS",
+                "AWS SQS",
+                "AWS EventBridge",    
+                "Serverless Framework"
             ],
             "level": "Senior",
             "name": "Backend"
         },
         {
             "keywords": [
-                "AWS",                
-                "Caching",
-                "CDK",
+                "AWS CloudFormation",                
+                "AWS CDK",
                 "AWS Pipeline",
                 "Jenkin CI/CD",
                 "GitHub / GutHub Action",
