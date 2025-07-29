@@ -17,7 +17,6 @@ Have been thinking for quite some time to write this utility. I wrote similar ut
 I don't know how useful it will be on this AI era, may be just for myself :-)
 
 
-<img src="../images/qer.png" alt="" width="800" height="500">
 
 
 ## **Overall Arch**
@@ -69,7 +68,7 @@ Quick Excel Reader library in your Java project. Checkout for latest version in 
 
 - Create Excel defination file in resources for maven project. Refer schema defination section for details.
 
-<img src="../images/excel_file.png" alt="" width="800" height="500">
+<img src="../images/excel_file.png" alt="">
 
 ```json
 
