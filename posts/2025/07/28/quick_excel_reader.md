@@ -18,7 +18,6 @@ I don't know how useful it will be on this AI era, may be just for myself :-)
 
 
 
-
 ## **Overall Arch**
 Intentionally we published this package as standalone library, so that can be used with any Java/J2EE framework. This library published to maven central so you can easily integrate with any build tools i.e. Maven or Gradle of your choice. 
 
@@ -31,7 +30,6 @@ Intentionally we published this package as standalone library, so that can be us
 
     - Get Map of key , value pair in the same structure provided in defination file. So that you use BeanUtils like package to copy data from Map to custom DTOs.
 
----
 
 ## **Getting Started**
 
@@ -68,7 +66,7 @@ Quick Excel Reader library in your Java project. Checkout for latest version in 
 
 - Create Excel defination file in resources for maven project. Refer schema defination section for details.
 
-<img src="../images/excel_file.png" alt="">
+<img src="../images/excel_file.png" alt="" width="100%">
 
 ```json
 
