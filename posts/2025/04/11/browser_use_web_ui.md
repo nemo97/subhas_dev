@@ -19,7 +19,7 @@ You can configure various model infact model running in Local with [Ollama](http
 I am surprised how well it works, i will try more in near future.
 
 
-<img src="{{page.url}}/../images/agent_history.gif" alt="" width="800" height="500">
+<img src="{{page.url}}../images/agent_history.gif" alt="" width="800" height="500">
 
 
 
