@@ -26,4 +26,9 @@ module.exports = function (eleventyConfig) {
         console.log("Stringifying data:", data);
         return ""; // Using null and "\t" for pretty-printing with tabs
     });
+
+    eleventyConfig.setChokidarConfig({
+		usePolling: true,
+		interval: 500,
+	});
 };
